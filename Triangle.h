@@ -12,4 +12,5 @@ public:
 	void Sides() override;
 	void Angles() override;
 	void print() override;
+	void method() override;
 };
