@@ -8,4 +8,5 @@ protected:
 public:
 	Triangle90(int a, int b, int c, int A, int B);
 	std::string GetName() override;
+	
 };

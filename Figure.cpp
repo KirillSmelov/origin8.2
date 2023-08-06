@@ -16,7 +16,3 @@ void Figure::print()
 {
 	std::cout << name << ":" << std::endl;
 }
-void method()
-{
-	std::cout << "создан";
-}

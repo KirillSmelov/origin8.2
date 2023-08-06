@@ -1,7 +1,7 @@
 ﻿#include <iostream>
 #include <string>
 #include <Windows.h>
-#include "Exception.h"
+#include<exception>
 #include "Figure.h"
 #include "Triangle.h"
 #include "Triangle90.h"
@@ -21,5 +21,14 @@ void print(Figure* figure)
 int main(int argc, char** argv)
 {
 	system("chcp 1251");
-
+	try 
+	{
+		Triangle Triangle(3, 5, 6, 175, 40, 65);
+		print(&Triangle);
+	}
+	catch (const Triangle& ex)
+	{
+		
+		std::cout << ex.what() << std::endl;
+	}
 }

@@ -7,4 +7,5 @@ protected:
 public:
 	Rhomb(int a, int A, int B);
 	std::string GetName() override;
+
 };

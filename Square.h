@@ -7,4 +7,5 @@ protected:
 public:
 	Square(int a);
 	std::string GetName() override;
+	
 };

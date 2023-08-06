@@ -1,7 +1,7 @@
 #pragma once
-#include "Exception.h"
 #include<string>
-class Figure: public ISK
+#include<exception>
+class Figure :public std::exception
 {
 protected:
 	std::string name = "Фигура";
@@ -10,8 +10,5 @@ public:
 	virtual void Sides();
 	virtual void Angles();
 	virtual void print();
-	void method() override
-	{
-
-	}
+	
 };

@@ -12,3 +12,12 @@ std::string IsoscelesTriangle::GetName()
 {
     return name;
 }
+/*void IsoscelesTriangle::method()
+{
+    std::string error = "стороны a и c не равны или углы A и C не равны";
+    if (a != c || A != C)
+    {
+        throw error;
+    }
+    else {}
+}*/

@@ -14,7 +14,7 @@ std::string Rhomb::GetName()
 {
     return name;
 }
-void Rhomb::method()
+/*void Rhomb::method()
 {
     std::string error = "все стороны не равны или углы попарно не равны ";
     if (a != c || a != b || a != d || b != c || b != d || c != d || A != C || B != D)
@@ -22,4 +22,4 @@ void Rhomb::method()
         throw error;
     }
     else {}
-}
+}*/

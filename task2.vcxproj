@@ -140,7 +140,6 @@
     <ClCompile Include="Triangle90.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Exception.h" />
     <ClInclude Include="Figure.h" />
     <ClInclude Include="IsoscelesTriangle.h" />
     <ClInclude Include="Parallelogram.h" />

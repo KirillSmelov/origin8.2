@@ -12,3 +12,12 @@ std::string Triangle90::GetName()
 {
     return name;
 }
+/*void Triangle90::method()
+{
+    std::string error = " угол  С  не равен 90 ";
+    if (C != 90)
+    {
+        throw error;
+    }
+    else {}
+}*/

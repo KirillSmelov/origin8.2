@@ -28,3 +28,12 @@ void Quadrangle::print()
     Sides();
     Angles();
 }
+/*void Quadrangle::method()
+{
+    std::string error = " Сумма углов не равна 360";
+    if (A + B + C + D != 360)
+    {
+        throw error;
+    }
+    else {}
+}*/

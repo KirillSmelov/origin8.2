@@ -14,3 +14,12 @@ std::string Recangle::GetName()
 {
     return name;
 }
+/*void Recangle::method()
+{
+    std::string error = "стороны a,c и b,d попарно не равны или все углы не равны 90";
+    if (a != c || b != d || A != 90 || B != 90 || C != 90 || D != 90)
+    {
+        throw error;
+    }
+    else {}
+}*/

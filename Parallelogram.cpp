@@ -14,3 +14,13 @@ std::string Parallelogram::GetName()
 {
     return name;
 }
+/*void Parallelogram::method()
+{
+    std::string error = " стороны попарно не равны или углы попарно не равны";
+    if (a != c || b != d || A != C || B != D)
+    {
+        throw error;
+
+    }
+    else {}
+}*/
