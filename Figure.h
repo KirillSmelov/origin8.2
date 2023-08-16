@@ -1,7 +1,7 @@
 #pragma once
 #include<string>
 #include<exception>
-class Figure :public std::exception
+class Figure 
 {
 protected:
 	std::string name = "Фигура";

@@ -1,10 +1,8 @@
 #include "Triangle.h"
-#include "Figure.h"
 #include <iostream>
-std::string error = "сумма углов не равна 180";
 Triangle::Triangle(int a, int b, int c, int A, int B, int C) :Figure()
 {
-    std::exception runtime_error ;
+    
     this->a = a;
     this->b = b;
     this->c = c;

@@ -1,5 +1,5 @@
 #include "Triangle60.h"
-Triangle60::Triangle60(int a) :Triangle(a, a, a, 60, 60, 60)
+Triangle60::Triangle60(int a,int b,int c,int A,int B,int C) :Triangle(a, a, a, 60, 60, 60)
 {
     this->a = a;
     this->b = b;
@@ -9,7 +9,7 @@ Triangle60::Triangle60(int a) :Triangle(a, a, a, 60, 60, 60)
     this->C = C;
     if (a != c || a != b || b != c || A != 60 || B != 60 || C != 60)
     {
-        throw std::runtime_error("¬се стороны неравны или все углы не равны");
+        throw std::runtime_error("¬се стороны неравны или все углы неравны");
     }
 }
 std::string Triangle60::GetName()

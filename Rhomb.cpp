@@ -9,17 +9,12 @@ Rhomb::Rhomb(int a, int A, int B) : Parallelogram(a, a, A, B)
     this->B = B;
     this->C = C;
     this->D = D;
+    if (a != c || a != b || a != d || b != c || b != d || c != d || A != C || B != D)
+    {
+        throw std::runtime_error("все стороны не равны или углы попарно не равны");
+    }
 }
 std::string Rhomb::GetName()
 {
     return name;
 }
-/*void Rhomb::method()
-{
-    std::string error = "все стороны не равны или углы попарно не равны ";
-    if (a != c || a != b || a != d || b != c || b != d || c != d || A != C || B != D)
-    {
-        throw error;
-    }
-    else {}
-}*/

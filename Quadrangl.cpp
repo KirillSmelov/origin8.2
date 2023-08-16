@@ -9,6 +9,10 @@ Quadrangle::Quadrangle(int a, int b, int c, int d, int A, int B, int C, int D) :
     this->B = B;
     this->C = C;
     this->D = D;
+    if (A + B + C + D != 360)
+    {
+        throw std::runtime_error("сумма углов не равна 360 ");
+    }
 }
 std::string Quadrangle::GetName()
 {
@@ -28,12 +32,3 @@ void Quadrangle::print()
     Sides();
     Angles();
 }
-/*void Quadrangle::method()
-{
-    std::string error = " Сумма углов не равна 360";
-    if (A + B + C + D != 360)
-    {
-        throw error;
-    }
-    else {}
-}*/

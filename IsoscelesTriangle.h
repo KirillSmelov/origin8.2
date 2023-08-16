@@ -5,7 +5,7 @@ class IsoscelesTriangle :public Triangle
 protected:
     std::string name = "Равнобедренный треугольник";
 public:
-    IsoscelesTriangle(int a, int b, int A, int B);
+    IsoscelesTriangle(int a, int b,int c, int A, int B,int C);
     std::string GetName() override;
     
 };

@@ -5,8 +5,8 @@ class Triangle60 :public Triangle
 protected:
 	std::string name = "равносторонний треугольник";
 public:
-	Triangle60(int a);
-	Triangle60();
+	Triangle60(int a,int b,int c,int A,int B,int C);
+	//Triangle60();
 	std::string GetName() override;
 	
 };
